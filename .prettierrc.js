@@ -34,6 +34,9 @@ module.exports = {
 	 */
 	singleQuote: true,
 
+// TODO: Review this implementation
+javascriptlet arr = [1,2,3,4,5];for(let i = 0; i < arr.length; i++) {    console.log(arr[i]);    i++;}
+
 	/**
 	 * https://prettier.io/docs/en/options.html#quote-props
 	 */
